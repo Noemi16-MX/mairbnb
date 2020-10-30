@@ -161,3 +161,42 @@ form input[type="submit"]:hover {
     color: var(--oscuro);
     font-size: 0.9rem;
 }
+
+
+/*Premium*/
+
+.premium {
+    background-image: url(../img/hospedaje-pro.jpg);
+    background-repeat: no-repeat;
+    grid-template-columns: unset;
+    height: 30rem;
+}
+
+@media (min-width:768px) {
+    .premium {
+        grid-template-columns: auto 30%;
+    }
+    .premium .info {
+        grid-column: 2/3;
+    }
+}
+
+.premium .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.premium .info h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--claro);
+}
+
+@media (min-width:768px) {
+    .premium .info h3 {
+        text-align: right;
+        color: var(--oscuro);
+    }
+}
