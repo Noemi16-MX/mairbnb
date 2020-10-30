@@ -3,6 +3,10 @@
     --primario: #da595e;
     --oscuro: #484848;
     --claro: #ffffff;
+    --hospedaje: #275154;
+    --concierto: #da595e;
+    --clase: #598dda;
+    --paseo: #940ad4;
 }
 
 html {
@@ -24,6 +28,22 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
+}
+
+.hospedaje {
+    color: var(--hospedaje);
+}
+
+.concierto {
+    color: var(--concierto);
+}
+
+.clase {
+    color: var(--clase);
+}
+
+.paseo {
+    color: var(--paseo);
 }
 
 
@@ -107,4 +127,37 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
     cursor: pointer;
+}
+
+
+/*contenido principal*/
+
+
+/*No hay media querias por el uso de grid auto-fit - minmax*/
+
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card img {
+    width: 100%;
+}
+
+.info .categoria {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.info .titulo {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.info .precio {
+    color: var(--oscuro);
+    font-size: 0.9rem;
 }
