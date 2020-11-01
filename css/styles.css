@@ -243,3 +243,27 @@ form input[type="submit"]:hover {
     font-size: 1.8rem;
     color: var(--claro);
 }
+
+
+/*footer*/
+
+.footer {}
+
+.nav-footer {
+    padding: 1rem;
+}
+
+.nav-footer h3 {
+    font-size: 1.2rem;
+}
+
+.nav-footer a {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: var(--oscuro);
+}
+
+.nav-footer a:last-of-type {
+    margin: 0;
+}
