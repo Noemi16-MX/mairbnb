@@ -150,6 +150,27 @@ form input[type="submit"]:hover {
     color: var(--claro);
 }
 
+.btn-flotante {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--claro);
+    color: var(--oscuro);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    -webkit-box-shadow: 10px 9px 7px 2px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 10px 9px 7px 2px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 9px 7px 2px rgba(0, 0, 0, 0.47);
+    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-flotante.activo,
+.btn-flotante:hover {
+    background-color: var(--primario);
+    color: var(--claro);
+}
+
 
 /*contenido principal*/
 
