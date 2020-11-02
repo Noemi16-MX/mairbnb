@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //Prevenimos el default,pero ejecutamos el siguiente codigo
         const footer = document.querySelector('#footer');
 
-        console.log(footer.classList);
+        // console.log(footer.classList);
 
         if (footer.classList.contains('activo')) {
 
